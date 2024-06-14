@@ -32,6 +32,27 @@
 $ yarn install
 ```
 
+## Docker (Optional)
+This project can be used with Docker Container for more info read [README.Docker.md](./README.Docker.md)
+
+
+## Prestart (Optional)
+If there is no postgreSQL DB named **'${DB_NAME}'** in your local host **please run this command`**
+
+```bash
+# prestart
+$ yarn prestart:dev
+```
+
+## Filling data
+To fill the data within DB please run this command
+
+```bash
+# mock data
+$ yarn migration:create
+```
+
+
 ## Running the app
 
 ```bash
